@@ -1,5 +1,6 @@
 .nav {
     display: flex;
+    top: 0;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -14,6 +15,7 @@
 
 .item {
     color: white;
+    cursor: pointer;
 }
 
 
@@ -48,6 +50,10 @@
     margin-right: 3vw;
 }
 
+.menu-icon {
+    font-size: 2rem;
+}
+
 
 
 
@@ -64,10 +70,19 @@
 }
 
 @media (width < 600px) {
-    .nav {
+    .button {
         display: none;
-
     }
 
-
+    .nav-items {
+        position: fixed;
+        flex-direction: column;
+        right: 8vw;
+        top: 7vw;
+        font-size: 2.8vw;
+        z-index: 99;
+        background-color: var(--grey);
+        color: var(--btn-color);
+        padding: 2vw;
+    }
 }

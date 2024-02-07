@@ -19,7 +19,7 @@ import { faBloggerB } from '@fortawesome/free-brands-svg-icons'
 
 function Header() {
     return (
-        <div className='containers Header'>
+        <div className='containers Header' id='home'>
             <div className='left-side'>
                 <div className='content'>
 

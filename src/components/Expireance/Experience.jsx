@@ -5,7 +5,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
 function Experience() {
     return (
-        <div className='containers experience-containers'>
+        <div className='containers experience-containers' id='experience'>
             <div className='experience-content'>
                 <div className='experience-header'>
                     <span className='sub-header'>Explore my</span>

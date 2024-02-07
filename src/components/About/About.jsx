@@ -8,7 +8,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 
 function About() {
     return (
-        <div className='containers about-container'>
+        <div className='containers about-container' id='about'>
 
             <div className='containt'>
                 <div className='containt-left' >
