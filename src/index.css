@@ -1,0 +1,145 @@
+:root {
+  --primary-color: #242424;
+  --seccond-primary-color: #241F1E;
+  --btn-color: #C60117;
+  --seccond-color: #9B0002;
+  --grey: rgb(148, 148, 148);
+  font-family: 'Poppins', sans-serif;
+  color-scheme: light dark;
+  background-color: var(--primary-color);
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scroll-indicator {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: -12vw;
+  top: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  gap: 2vw;
+  rotate: 90deg;
+}
+
+.verticle-text {
+  letter-spacing: 7px;
+  color: var(--grey);
+}
+
+.forward-arrow {
+  color: var(--grey);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--btn-color);
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--btn-color);
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  box-shadow: 0 0 300px 20px var(--btn-color);
+}
+
+.btn:hover {
+  background-color: var(--seccond-color);
+}
+
+.hr-line {
+  width: 70%;
+  height: 5px;
+  background-color: var(--btn-color);
+  margin-top: 2vw;
+}
+
+.containers {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 3vw;
+  height: 70vh;
+  width: 90%;
+
+}
+
+.stroke-header {
+  font-size: 3rem;
+  color: var(--seccond-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: white;
+}
+
+.box-design {
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 100px 10px var(--btn-color);
+  z-index: -1;
+  padding: 30px;
+}
+
+.sub-header {
+  color: var(--grey);
+  letter-spacing: 3px;
+}
+
+@media (width < 1920px) {
+
+  .scroll-indicator {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: -10vw;
+    top: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    gap: 2vw;
+    rotate: 90deg;
+  }
+}
+
+
+@media (width < 900px) {
+  .btn {
+    width: 80px;
+    height: 40px;
+    font-size: 0.75rem;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+
+}
+
+@media (width < 600px) {
+  .scroll-indicator {
+    display: none;
+  }
+}
