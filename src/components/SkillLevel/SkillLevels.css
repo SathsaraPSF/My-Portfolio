@@ -1,0 +1,46 @@
+.skill-level-container {
+    width: 100%;
+    height: 4vw;
+}
+
+.skill-level-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.language {
+    text-transform: uppercase;
+}
+
+.lable {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20px;
+}
+
+
+.expert-level {
+    color: var(--btn-color);
+}
+
+.level-line {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.dot {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}

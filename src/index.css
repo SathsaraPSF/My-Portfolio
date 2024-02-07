@@ -80,8 +80,8 @@ a:hover {
   position: relative;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 3vw;
-  height: 70vh;
+  margin-top: 5vw;
+  height: 80vh;
   width: 90%;
 
 }
@@ -97,7 +97,7 @@ a:hover {
   background-color: transparent;
   border: 5px solid white;
   border-radius: 10px;
-  box-shadow: 0 0 100px 10px var(--btn-color);
+  box-shadow: 0 0 70px 5px var(--btn-color);
   z-index: -1;
   padding: 30px;
 }
@@ -139,6 +139,10 @@ a:hover {
 }
 
 @media (width < 600px) {
+  .containers {
+    margin-top: 5vw;
+  }
+
   .scroll-indicator {
     display: none;
   }
@@ -147,7 +151,7 @@ a:hover {
     background-color: transparent;
     border: 5px solid white;
     border-radius: 10px;
-    box-shadow: 0 0 50px 5px var(--btn-color);
+    box-shadow: 0 0 40px 4px var(--btn-color);
     z-index: -1;
     padding: 30px;
   }

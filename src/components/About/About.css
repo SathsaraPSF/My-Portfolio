@@ -89,10 +89,14 @@
 
 
 @media (width < 600px) {
+    .about-container {
+        margin-top: 35vw;
+    }
+
     .containt {
         display: flex;
         flex-direction: column;
-        margin-top: -10vw;
+        gap: 5vw;
     }
 
     .about-header {
@@ -102,12 +106,10 @@
 
     .containt-left {
         width: 100%;
-        margin-top: 7vw;
 
     }
 
     .containt-right {
-        margin-top: 7vw;
         width: 100%;
 
     }
