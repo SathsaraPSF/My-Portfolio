@@ -7,7 +7,7 @@ function Experience() {
     return (
         <div className='containers experience-containers'>
             <div className='experience-content'>
-                <div className='header'>
+                <div className='experience-header'>
                     <span className='sub-header'>Explore my</span>
                     <span className='stroke-header '>Experience</span>
                 </div>

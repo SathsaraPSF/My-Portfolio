@@ -142,4 +142,13 @@ a:hover {
   .scroll-indicator {
     display: none;
   }
+
+  .box-design {
+    background-color: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 50px 5px var(--btn-color);
+    z-index: -1;
+    padding: 30px;
+  }
 }

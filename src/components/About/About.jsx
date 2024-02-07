@@ -12,7 +12,7 @@ function About() {
 
             <div className='containt'>
                 <div className='containt-left' >
-                    <div className='header'>
+                    <div className='about-header'>
                         <span className='sub-header '>Take time to know</span>
                         <span className='stroke-header' >About me</span>
                     </div>
