@@ -92,14 +92,14 @@
         gap: 5vw;
     }
 
-
     .containt-left {
         width: 100%;
-
     }
 
     .containt-right {
         width: 100%;
+        margin-top: 5vw;
+
 
     }
 

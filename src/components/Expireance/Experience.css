@@ -67,10 +67,14 @@
 }
 
 @media (width < 600px) {
+    .experience-containers {
+        margin-top: 50vw;
+    }
 
     .experiences {
         width: 70%;
         height: 60%;
+        margin-top: 10vw;
     }
 
     .position {

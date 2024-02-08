@@ -4,6 +4,7 @@
   --btn-color: #C60117;
   --seccond-color: #9B0002;
   --grey: rgb(148, 148, 148);
+  --accent: var(--white);
   font-family: 'Poppins', sans-serif;
   color-scheme: light dark;
   background-color: var(--primary-color);

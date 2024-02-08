@@ -6,6 +6,7 @@ import Header from './components/Header.jsx'
 import About from './components/About/About.jsx'
 import Experience from './components/Expireance/Experience.jsx'
 import Skills from './components/Skills/Skills.jsx'
+import Project from './components/Projects/Project.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <About />
     <Experience />
     <Skills />
+    <Project />
 
   </React.StrictMode>,
 )
