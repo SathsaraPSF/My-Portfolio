@@ -6,7 +6,7 @@ import SkillLevel from '../SkillLevel/SkillLevel'
 function Skills() {
 
     return (
-        <div className='containers skills-container'>
+        <div className='containers skills-container' id='skills'>
             <div className='skill-header-area'>
                 <div className='hr-line line-position-1'></div>
                 <Topic subHeader='Empower my potential' mainHeader='Skills' />

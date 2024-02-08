@@ -4,6 +4,7 @@ import Bar from '../src/assets/bar.png'
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHamburger } from '@fortawesome/free-solid-svg-icons'
+import { motion } from "framer-motion";
 
 function App() {
 
@@ -52,7 +53,13 @@ function App() {
       ) : (
         <ul className='nav-items'>
 
-          <li>
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
             <Link
               activeClass="active"
               className='item'
@@ -61,9 +68,15 @@ function App() {
               smooth={true}
               duration={500}
               offset={0}
-              onClick={() => setMenuOpend(false)}>Home</Link></li>
+              onClick={() => setMenuOpend(false)}>Home</Link></motion.li>
 
-          <li>
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
             <Link
               className='item'
               to="about"
@@ -71,9 +84,15 @@ function App() {
               smooth={true}
               duration={500}
               offset={20}
-              onClick={() => setMenuOpend(false)}>About me</Link></li>
+              onClick={() => setMenuOpend(false)}>About me</Link></motion.li>
 
-          <li>
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
             <Link
               className='item'
               to="experience"
@@ -81,13 +100,64 @@ function App() {
               smooth={true}
               duration={500}
               offset={5}
-              onClick={() => setMenuOpend(false)}>Experinace</Link></li>
+              onClick={() => setMenuOpend(false)}>Experinace</Link></motion.li>
 
-          <li><Link className='item' href='#skills' onClick={() => setMenuOpend(false)}>Skills</Link></li>
-          <li><Link className='item' href='#contactme' onClick={() => setMenuOpend(false)}>Contact me</Link></li>
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
+            <Link
+              className='item'
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={5}
+              onClick={() => setMenuOpend(false)}>Skills</Link></motion.li>
+
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
+            <Link
+              className='item'
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={5}
+              onClick={() => setMenuOpend(false)}>Projects</Link></motion.li>
+
+          <motion.li
+            whileHover={{
+              scale: 1.1,
+              originX: 0,
+              color: "#f8e112",
+            }}
+            transition={{ type: "spring", stiffness: 300 }}>
+            <Link
+              className='item'
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={5}
+              onClick={() => setMenuOpend(false)}>Contact me</Link></motion.li>
         </ul>
       )}
-      <button className='button btn'>Resume</button>
+      <motion.button
+        whileHover={{
+          scale: 1.1,
+          originX: 0,
+        }}
+        transition={{ type: "spring", stiffness: 300 }}
+        className='button btn'>Resume</motion.button>
     </div>
   )
 }
