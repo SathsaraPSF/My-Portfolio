@@ -16,7 +16,7 @@ function ProjectCard(props) {
                 <img src={props.img} className='project-img' />
             </div>
             <div className='see-more-button'>
-                <button className='project-button btn'>see more</button>
+                <button className='project-button btn'><a className="button-a" href={props.link}>see more</a></button>
             </div>
         </motion.div>
     )

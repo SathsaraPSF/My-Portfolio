@@ -3,8 +3,9 @@ import './Contact.css'
 import Topic from '../MainTopics/Topic'
 import { Button } from 'react-scroll'
 function Contact() {
+    const [name, setName] = React.useState("");
     return (
-        <div className='containers contact-container'>
+        <div className='containers contact-container' id='contact'>
             <div className='contact-content'>
                 <div className='contact-header'>
                     <Topic subHeader='Get in touch' mainHeader='Contact me' />

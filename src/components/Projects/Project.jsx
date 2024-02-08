@@ -18,10 +18,11 @@ function Project() {
             </div>
             <div className='projects'>
                 <div className='project-content'>
-                    <ProjectCard img={img1} />
-                    <ProjectCard img={img2} />
+                    <ProjectCard img={img1} link="https://github.com/SathsaraPSF/MyToDoList" />
+                    <ProjectCard img={img2} link="https://github.com/SathsaraPSF/SPCreations-Web-Site" />
+                    <ProjectCard img={img4} link="https://github.com/Gold-Diggers-Team/AgroPest-Mobile-Application" />
                     <ProjectCard img={img3} />
-                    <ProjectCard img={img4} />
+
                 </div>
             </div>
         </div>

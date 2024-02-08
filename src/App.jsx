@@ -157,7 +157,7 @@ function App() {
           originX: 0,
         }}
         transition={{ type: "spring", stiffness: 300 }}
-        className='button btn'>Resume</motion.button>
+        className='button btn'><a className="button-a" href="MyCv.pdf" download="Pasindu Sathsara Fernando.pdf">RESUME</a></motion.button>
     </div>
   )
 }

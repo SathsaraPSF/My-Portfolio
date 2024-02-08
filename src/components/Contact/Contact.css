@@ -52,6 +52,7 @@
 
 .textarea {
     resize: none;
+    height: 100px;
     outline: none;
     border: none;
 }
