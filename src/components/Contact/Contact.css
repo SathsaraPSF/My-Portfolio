@@ -95,12 +95,20 @@
     .form {
         width: 100%;
         height: 80%;
-        margin-top: 3vw;
+        margin-top: 7vw;
+    }
+
+    .form-content {
+        width: 100%;
     }
 
     .textarea {
         resize: none;
         outline: none;
         border: none;
+    }
+
+    .details {
+        gap: 3vw;
     }
 }

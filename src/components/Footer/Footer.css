@@ -19,7 +19,6 @@
 @media (width < 600px) {
     .footer {
         height: 70px;
-        margin-top: -2vw;
     }
 
     .footer-logo {
@@ -27,6 +26,6 @@
     }
 
     .footer-text {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
