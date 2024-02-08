@@ -5,13 +5,6 @@
     height: 100%;
 }
 
-.about-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
 .containt-left {
     display: flex;
     flex-direction: column;
@@ -99,10 +92,6 @@
         gap: 5vw;
     }
 
-    .about-header {
-        text-align: center;
-        margin-bottom: 8vw;
-    }
 
     .containt-left {
         width: 100%;

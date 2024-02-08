@@ -5,6 +5,7 @@ import { faCakeCandles } from '@fortawesome/free-solid-svg-icons'
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import Topic from '../MainTopics/Topic'
 
 function About() {
     return (
@@ -12,10 +13,7 @@ function About() {
 
             <div className='containt'>
                 <div className='containt-left' >
-                    <div className='about-header'>
-                        <span className='sub-header '>Take time to know</span>
-                        <span className='stroke-header' >About me</span>
-                    </div>
+                    <Topic subHeader='Take time to know' mainHeader='About me' />
                     Hi there! I'm Pasindu Sathsara, an enthusiastic undergraduate student at The Open University of Sri Lanka, currently in my third year of studying Software Engineering. I'm deeply passionate about technology and software development, and I'm excited to share my journey and projects with you.
                 </div>
                 <div className='containt-right'>

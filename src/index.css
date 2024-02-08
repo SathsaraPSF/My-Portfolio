@@ -69,12 +69,7 @@ a:hover {
   background-color: var(--seccond-color);
 }
 
-.hr-line {
-  width: 70%;
-  height: 5px;
-  background-color: var(--btn-color);
-  margin-top: 2vw;
-}
+
 
 .containers {
   position: relative;
@@ -86,12 +81,7 @@ a:hover {
 
 }
 
-.stroke-header {
-  font-size: 3rem;
-  color: var(--seccond-color);
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-fill-color: white;
-}
+
 
 .box-design {
   background-color: transparent;
@@ -102,10 +92,7 @@ a:hover {
   padding: 30px;
 }
 
-.sub-header {
-  color: var(--grey);
-  letter-spacing: 3px;
-}
+
 
 @media (width < 1920px) {
 

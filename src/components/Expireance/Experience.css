@@ -8,13 +8,6 @@
     height: 100%;
 }
 
-.experience-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3vw;
-}
-
 .experiences {
     width: 60%;
     height: 60%;
@@ -74,9 +67,6 @@
 }
 
 @media (width < 600px) {
-    .experience-containers {
-        margin-top: 45vw;
-    }
 
     .experiences {
         width: 70%;

@@ -1,19 +1,21 @@
 import React from 'react'
 import './Skills.css'
+import Topic from '../MainTopics/Topic'
 import SkillLevel from '../SkillLevel/SkillLevel'
 
 function Skills() {
 
     return (
         <div className='containers skills-container'>
-            <div className='skills-header'>
-                <span className='sub-header'>Empower my potential</span>
-                <span className='stroke-header '>Skills</span>
+            <div className='skill-header-area'>
+                <div className='hr-line line-position-1'></div>
+                <Topic subHeader='Empower my potential' mainHeader='Skills' />
+                <div className='hr-line  line-position-2'></div>
             </div>
             <div className='skills'>
                 <div className='skill-set-1 skill-set'>
                     <div className='box-design skill-content-box'>
-                        <SkillLevel language='Java' level='80' />
+                        <SkillLevel language='Java' level='70' />
                         <SkillLevel language='Python' level='60' />
                         <SkillLevel language='JavaScript' level='70' />
                         <SkillLevel language='SQL' level='80' />

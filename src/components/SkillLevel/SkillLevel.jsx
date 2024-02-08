@@ -11,7 +11,7 @@ function SkillLevel(props) {
 
     switch (language) {
         case "Java":
-            style = { backgroundColor: '#C69749', width: `${level}%` }
+            style = { backgroundColor: '#C69749', width: `${level}%`, }
             dotStyle = { backgroundColor: '#C69749' }
             break;
         case "Python":

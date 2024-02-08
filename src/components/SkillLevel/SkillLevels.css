@@ -8,11 +8,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
-.language {
-    text-transform: uppercase;
-}
+
 
 .lable {
     display: flex;
@@ -21,9 +20,26 @@
     height: 20px;
 }
 
+.language {
+    text-transform: uppercase;
+}
 
 .expert-level {
     color: var(--btn-color);
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.progress-line {
+    width: 100%;
+    height: 5px;
+    border-radius: 8px;
+    background-color: var(--grey);
 }
 
 .level-line {
@@ -43,4 +59,19 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
+}
+
+@media (width < 900px) {
+    .lable {
+        font-size: 0.8rem;
+    }
+
+    .progress-line {
+        height: 4px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
 }

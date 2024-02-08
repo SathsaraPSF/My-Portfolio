@@ -1,5 +1,6 @@
 import React from 'react'
 import './Experience.css'
+import Topic from '../MainTopics/Topic'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
@@ -7,10 +8,9 @@ function Experience() {
     return (
         <div className='containers experience-containers' id='experience'>
             <div className='experience-content'>
-                <div className='experience-header'>
-                    <span className='sub-header'>Explore my</span>
-                    <span className='stroke-header '>Experience</span>
-                </div>
+
+                <Topic subHeader='Explore my' mainHeader='Experience' />
+
                 <div className='experiences box-design'>
                     <div className='detail-container'>
                         <div className='top-side'>
