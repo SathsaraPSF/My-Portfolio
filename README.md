@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Used Libraries 
 
-- Type Writer  [npm i --save react-simple-typewriter]
+- Type Writer  [npm i --save react-simple-typewriter] <br/>
   (https://www.npmjs.com/package/react-simple-typewriter)
 
 - Framer motion [npm i --save framer-motion]
