@@ -33,7 +33,7 @@ Currently, two official plugins are available:
   (https://www.npmjs.com/package/react-scroll)
 
 - <h3>Font Awesome icons</h3> 
-  <br/>[npm i --save @fortawesome/fontawesome-svg-core]
+   [npm i --save @fortawesome/fontawesome-svg-core]
   <br/>[npm i --save @fortawesome/free-brands-svg-icons]
   <br/>[npm i --save @fortawesome/free-solid-svg-icons]
   <br/> [npm i --save @fortawesome/react-fontawesome]<br/>
