@@ -9,28 +9,33 @@ Currently, two official plugins are available:
 
 # Used Libraries 
 
-- Type Writer <br/>  [npm i --save react-simple-typewriter] <br/>
+- <h3>Type Writer</h3>  
+  [npm i --save react-simple-typewriter] <br/>
   (https://www.npmjs.com/package/react-simple-typewriter)
 
-- Framer motion <br/> [npm i --save framer-motion] <br/>
+- <h3>Framer motion</h3>  
+  [npm i --save framer-motion] <br/>
   (https://www.framer.com/motion/)
 
 
-- React-tostify <br/> [npm i --save react-toastify] <br/>
+- <h3>React-tostify</h3> 
+  [npm i --save react-toastify] <br/>
   (https://fkhadra.github.io/react-toastify/introduction/)
 
 
-- EmailJs <br/> [npm i --save @emailjs/browser] <br/>
+- <h3>EmailJs</h3>
+  [npm i --save @emailjs/browser] <br/>
   (https://www.emailjs.com)
 
 
-- react-scroll <br/> [npm i --save react-scroll] <br/>
+- <h3>react-scroll</h3>
+  [npm i --save react-scroll] <br/>
   (https://www.npmjs.com/package/react-scroll)
 
-- Font Awesome icons <br/>
- <br/> [npm i --save @fortawesome/fontawesome-svg-core]
- <br/>[npm i --save @fortawesome/free-brands-svg-icons]
- <br/>[npm i --save @fortawesome/free-solid-svg-icons]
- <br/> [npm i --save @fortawesome/react-fontawesome]<br/>
+- <h3>Font Awesome icons</h3> 
+  <br/>[npm i --save @fortawesome/fontawesome-svg-core]
+  <br/>[npm i --save @fortawesome/free-brands-svg-icons]
+  <br/>[npm i --save @fortawesome/free-solid-svg-icons]
+  <br/> [npm i --save @fortawesome/react-fontawesome]<br/>
   (https://fontawesome.com/docs/web/use-with/react/)
 
