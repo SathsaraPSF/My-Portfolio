@@ -32,8 +32,21 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        const emailRegex = /\S+@\S+\.\S+/;
+
         if (formData.from_name.length === 0 && formData.email.length === 0 && formData.message.length === 0) {
             toast.warn('All the feilds are required! 🛑', {
+                position: "top-left",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+            });
+        } else if (!emailRegex.test(formData.email)) {
+            toast.warn('Please enter a valid email address! 📧', {
                 position: "top-left",
                 autoClose: 5000,
                 hideProgressBar: false,
